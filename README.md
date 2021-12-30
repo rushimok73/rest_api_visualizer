@@ -1,5 +1,5 @@
 # Project - REST API visualizer
-##1. About/Overview
+## 1. About/Overview
 ### Some API responses can be complex and tough to understand. This tool will simplify the API responses by creating a fluid graphical structure using d3.js
 
 ## 2. List Of Features
