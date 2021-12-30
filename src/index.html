@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="d3utils.js"></script>
+    <style>
+    body {
+      background-color: #E6E6E6;
+    }
+
+    svg {
+      width: 100vw;
+      height: 100vh;
+    }
+
+
+
+    .node {
+      pointer-events: all;
+      cursor: pointer;
+      z-index: 1000;
+    }
+
+
+    .node text {
+      font-style: normal;
+      font: 16px;
+      font-color: black;
+    }
+    </style>
+</head>
+<body>
+    <div class = "menu">
+    <input type="text" id="api_url" style="width: 400px;" placeholder="Enter url">
+    <input type="text" id="auth_header" style="width: 400px;" placeholder="Enter Auth header">
+    <button onclick=get()>GET</button>
+
+    <input type="text" id="searchip" style="width: 200px;">
+    <button onclick=search()>Search</button>
+    </div>
+
+    <div class = "svg"></div>
+<script>
+</script>
+</body>
+</html>
